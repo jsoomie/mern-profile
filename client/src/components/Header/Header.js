@@ -1,5 +1,6 @@
 import "./Header.css";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -9,12 +10,12 @@ export const Header = () => {
       </div>
       <div className="header-list-container px-1 all-center">
         <ul className="header-list">
-          <li>
+          <li className="github">
             <a href="https://github.com/sksmejn">
               <i className="fab fa-github-square"></i> Github
             </a>
           </li>
-          <li>
+          <li className="linkedin">
             <a
               href="https://www.linkedin.com/in/jonathan-soukaseume/"
               title="Add me on LinkedIn!"
@@ -22,16 +23,20 @@ export const Header = () => {
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </li>
-          <li>
+          <li className="resume">
             <a href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing">
               <i className="far fa-file"></i> Resume
             </a>
           </li>
-          <li>
-            <i className="far fa-folder-open"></i> Projects
+          <li className="projects">
+            <Link to="/projects">
+              <i className="far fa-folder-open"></i> Projects
+            </Link>
           </li>
-          <li>
-            <i className="far fa-envelope"></i> Contact
+          <li className="contact">
+            <Link to="/contact">
+              <i className="far fa-envelope"></i> Contact
+            </Link>
           </li>
         </ul>
       </div>

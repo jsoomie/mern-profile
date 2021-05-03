@@ -1,0 +1,13 @@
+.footer-container button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border-color: transparent;
+  background-color: #f4976C;
+  color: #fff;
+}
+
+.footer-container button i {
+  width: 100%;
+  font-size: 1.5rem;
+}

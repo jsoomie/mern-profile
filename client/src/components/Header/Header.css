@@ -24,3 +24,19 @@
   padding-right: 1rem;
   margin-bottom: 1rem;
 }
+
+.github a {
+  color: var(--orange);
+}
+
+.linkedin a {
+  color: var(--cyan);
+}
+
+.resume a {
+  color: var(--yellow);
+}
+
+.contact > * {
+  color: var(--darkcyan);
+}
