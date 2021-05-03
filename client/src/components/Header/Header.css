@@ -1,0 +1,26 @@
+.header-container {
+  background-color: #345;
+  width: 100%;
+  color: white;
+  padding-top: 1rem;
+}
+
+.header-container h1 {
+  letter-spacing: 0.4rem;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list-container {
+  background-color: #345;
+  color: #fff;
+  width: 100%;
+}
+
+.header-list li {
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
