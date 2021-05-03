@@ -24,11 +24,15 @@ export const Header = () => {
           </li>
           <li>
             <a href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing">
-              Resume
+              <i className="far fa-file"></i> Resume
             </a>
           </li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <i className="far fa-folder-open"></i> Projects
+          </li>
+          <li>
+            <i className="far fa-envelope"></i> Contact
+          </li>
         </ul>
       </div>
     </Fragment>
