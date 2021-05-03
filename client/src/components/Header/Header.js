@@ -4,10 +4,10 @@ import { Fragment } from "react";
 export const Header = () => {
   return (
     <Fragment>
-      <div className="header-container px-1">
+      <div className="header-container px-1 all-center">
         <h1>Jonathan Soukaseume</h1>
       </div>
-      <div className="header-list-container px-1">
+      <div className="header-list-container px-1 all-center">
         <ul className="header-list">
           <li>
             <a href="https://github.com/sksmejn">
