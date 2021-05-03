@@ -11,7 +11,7 @@ export const Header = () => {
         <ul className="header-list">
           <li>
             <a href="https://github.com/sksmejn">
-              <i class="fab fa-github-square"></i> Github
+              <i className="fab fa-github-square"></i> Github
             </a>
           </li>
           <li>
@@ -19,7 +19,7 @@ export const Header = () => {
               href="https://www.linkedin.com/in/jonathan-soukaseume/"
               title="Add me on LinkedIn!"
             >
-              <i class="fab fa-linkedin"></i> LinkedIn
+              <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </li>
           <li>
