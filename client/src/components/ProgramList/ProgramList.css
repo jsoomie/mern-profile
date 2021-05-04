@@ -1,0 +1,10 @@
+.program-list-container {
+  border: 1px solid red;
+  width: 800px;
+}
+
+.program-list-container li {
+  border: 1px dotted gray;
+  width: 10rem;
+  margin: 0 auto;
+}

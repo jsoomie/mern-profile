@@ -14,7 +14,7 @@ export const Header = () => {
         <ul className="header-list">
           <li className="github">
             <a href="https://github.com/sksmejn">
-              <i className="fab fa-github-square"></i> Github
+              <i className="fab fa-github-square"></i> github
             </a>
           </li>
           <li className="linkedin">
@@ -22,22 +22,22 @@ export const Header = () => {
               href="https://www.linkedin.com/in/jonathan-soukaseume/"
               title="Add me on LinkedIn!"
             >
-              <i className="fab fa-linkedin"></i> LinkedIn
+              <i className="fab fa-linkedin"></i> linkedIn
             </a>
           </li>
           <li className="resume">
             <a href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing">
-              <i className="far fa-file"></i> Resume
+              <i className="far fa-file"></i> resume
             </a>
           </li>
           <li className="projects">
             <Link to="/projects">
-              <i className="far fa-folder-open"></i> Projects
+              <i className="far fa-folder-open"></i> projects
             </Link>
           </li>
           <li className="contact">
             <Link to="/contact">
-              <i className="far fa-envelope"></i> Contact
+              <i className="far fa-envelope"></i> contact
             </Link>
           </li>
         </ul>
