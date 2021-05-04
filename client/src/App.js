@@ -1,4 +1,4 @@
-import { Home } from "./pages";
+import { Home, Projects } from "./pages";
 import { Header, Footer } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -10,6 +10,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
           </Route>
         </Switch>
         <Footer />

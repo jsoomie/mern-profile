@@ -6,7 +6,9 @@ export const Header = () => {
   return (
     <Fragment>
       <div className="header-container px-1 all-center">
-        <h1>Jonathan Soukaseume</h1>
+        <Link to="/">
+          <h1>Jonathan Soukaseume</h1>
+        </Link>
       </div>
       <div className="header-list-container px-1 all-center">
         <ul className="header-list">
