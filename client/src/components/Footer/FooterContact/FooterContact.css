@@ -1,0 +1,21 @@
+.footer-contact-container {
+  position: relative;
+  color: #fff;
+  background-color: #345;
+  padding: 0.5rem;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.footer-contact-container::before {
+  content: "";
+  position: absolute;
+  border-top: 15px solid #345;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+}

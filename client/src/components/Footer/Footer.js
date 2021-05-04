@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { useState } from "react";
-import { Contact } from "../../pages";
+import FooterContact from "./FooterContact/FooterContact";
 
 export const Footer = () => {
   const [showContact, setShowContact] = useState(false);
@@ -11,7 +11,7 @@ export const Footer = () => {
 
   return (
     <div className="footer-container all-center">
-      {showContact && <Contact />}
+      {showContact && <FooterContact />}
       <button onClick={showHide}>
         <i className="far fa-envelope"></i>
       </button>

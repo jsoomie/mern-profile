@@ -10,6 +10,12 @@
   border-color: transparent;
   background-color: #f4976C;
   color: #fff;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.footer-container button:hover {
+  background-color: #ff9d70;
+  transform: scale(1.2);
 }
 
 .footer-container button i {
