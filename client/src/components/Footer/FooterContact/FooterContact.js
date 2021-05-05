@@ -1,4 +1,5 @@
 import "./FooterContact.css";
+import { Link } from "react-router-dom";
 
 export const FooterContact = () => {
   return (
@@ -23,9 +24,9 @@ export const FooterContact = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:jsoomie@gmail.com">
+          <Link to="/contact">
             <i className="far fa-envelope"></i> Email
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
