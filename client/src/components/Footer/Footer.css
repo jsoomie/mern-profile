@@ -11,6 +11,7 @@
   background-color: #f4976C;
   color: #fff;
   box-shadow: 1px 1px 5px gray;
+  transition: linear 0.3s;
 }
 
 .footer-container button:hover {

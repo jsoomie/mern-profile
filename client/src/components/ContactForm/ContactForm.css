@@ -7,6 +7,10 @@
   width: 500px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px gray;
+  background-size: 100px 100px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
 }
 
 .form-container input,
@@ -26,8 +30,22 @@
   font-size: 1.2rem;
   width: 50%;
   text-align: left;
+  font-weight: bold;
 }
 
 .line-break {
   margin: 0.5rem 0;
+}
+
+.form-container button {
+  background-color: #345;
+  color: #fff;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  transition: linear 0.5s;
+}
+
+.form-container button:hover {
+  background-color: #222;
+  letter-spacing: 0.1rem;
 }

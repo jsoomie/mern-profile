@@ -11,6 +11,8 @@ export const ContactForm = () => {
       <div className="line-break"></div>
       <label htmlFor="body">Message</label>
       <textarea name="body" id="contact-body"></textarea>
+      <div className="line-break"></div>
+      <button>Submit</button>
     </form>
   );
 };
