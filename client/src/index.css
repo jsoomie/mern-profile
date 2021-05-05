@@ -1,7 +1,7 @@
 :root {
   --yellow: #FBE8A6;
   --orange: #F4976C;
-  --navy: #303C6C;
+  --navy: #475074;
   --darkcyan: #B4DFE5;
   --cyan: #D2FDFF;
 }
@@ -22,8 +22,8 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
-  background-size: 40px 40px;
-  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+  background-size: 35px 35px;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
 }
 
 a {
