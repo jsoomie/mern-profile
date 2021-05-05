@@ -1,7 +1,10 @@
+import { ProjectsList } from "../components";
+
 export const Projects = () => {
   return (
-    <div>
+    <div className="all-center container">
       <h1>Projects!</h1>
+      <ProjectsList />
     </div>
   );
 };

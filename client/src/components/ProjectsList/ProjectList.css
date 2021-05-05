@@ -1,0 +1,30 @@
+.projects-container {
+  margin: 1rem;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-container {
+  border: 1px solid red;
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.card-header {
+  background-color: var(--yellow);
+  padding: 1rem;
+  width: 100%;
+}
+
+.card-body {
+  background-color: var(--orange);
+  width: 100%;
+}
+
+.card-footer {
+  background-color: var(--cyan);
+  width: 100%;
+}
