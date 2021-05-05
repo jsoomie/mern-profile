@@ -15,6 +15,7 @@
 }
 
 .greeting-hello::first-letter {
+  float: none;
   font-size: 3rem;
 }
 

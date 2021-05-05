@@ -1,21 +1,23 @@
 .footer-contact-container {
   position: relative;
+  font-size: 2rem;
   color: #fff;
   background-color: #345;
-  padding: 0.5rem;
+  padding: 3rem;
   margin: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   text-align: left;
   box-shadow: 1px 1px 1px gray;
+  border-radius: 5px;
 }
 
 .footer-contact-container::before {
   content: "";
   position: absolute;
-  border-top: 15px solid #345;
-  bottom: -15px;
+  border-top: 80px solid #345;
+  bottom: -35px;
   left: 0;
   right: 0;
-  border-left: 45px solid transparent;
-  border-right: 45px solid transparent;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
 }
