@@ -23,7 +23,9 @@ export const FooterContact = () => {
           </a>
         </li>
         <li>
-          <i className="far fa-envelope"></i> Email
+          <a href="mailto:jsoomie@gmail.com">
+            <i className="far fa-envelope"></i> Email
+          </a>
         </li>
       </ul>
     </div>

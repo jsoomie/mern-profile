@@ -1,7 +1,10 @@
+import { ContactForm } from "../components";
+
 export const Contact = () => {
   return (
-    <div>
-      <h1>Contact!</h1>
+    <div className="all-center">
+      <h1>Contact Me!</h1>
+      <ContactForm />
     </div>
   );
 };
