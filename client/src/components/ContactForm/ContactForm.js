@@ -1,12 +1,16 @@
+import "./ContactForm.css";
+
 export const ContactForm = () => {
   return (
-    <form action="">
+    <form className="form-container my-1">
       <label htmlFor="name">Name</label>
       <input type="text" />
+      <div className="line-break"></div>
       <label htmlFor="email">Email</label>
       <input type="email" />
+      <div className="line-break"></div>
       <label htmlFor="body">Message</label>
-      <textarea name="body" id="contact-body" cols="30" rows="10"></textarea>
+      <textarea name="body" id="contact-body"></textarea>
     </form>
   );
 };
