@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "program": "MERN Stack",
+    "icon": "fas fa-layer-group",
+    "link": "https://www.mongodb.com/mern-stack"
+  },
+  {
+    "id": 2,
+    "program": "MongoDB",
+    "icon": "fas fa-database",
+    "link": "https://www.mongodb.com/"
+  },
+  {
+    "id": 3,
+    "program": "Express",
+    "icon": "fas fa-server",
+    "link": "https://www.npmjs.com/package/express"
+  },
+  {
+    "id": 4,
+    "program": "React.js",
+    "icon": "fab fa-react",
+    "link": "https://reactjs.org/"
+  },
+  {
+    "id": 5,
+    "program": "Node.js",
+    "icon": "fab fa-node",
+    "link": "https://nodejs.org/en/about/"
+  },
+  {
+    "id": 6,
+    "program": "JavaScript",
+    "icon": "fab fa-js",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "id": 7,
+    "program": "HTML",
+    "icon": "fab fa-html5",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML"
+  },
+  {
+    "id": 8,
+    "program": "CSS",
+    "icon": "fab fa-css3-alt",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  }
+]

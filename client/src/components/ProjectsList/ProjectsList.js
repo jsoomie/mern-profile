@@ -1,38 +1,27 @@
 import "./ProjectList.css";
+import projects from "../../db/projectlist.json";
 
 export const ProjectsList = () => {
   return (
     <div className="projects-container grid-3">
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
-      <div className="card-container">
-        <div className="card-header">Header</div>
-        <div className="card-body">Body</div>
-        <div className="card-footer">Footer</div>
-      </div>
+      {projects
+        ? projects.map(({ id, title, image, url, description }) => (
+            <div className="card-container" key={id}>
+              <a href={url}>
+                <div
+                  className="card-header"
+                  style={{
+                    backgroundImage: `url(${image})`,
+                    backgroundSize: "cover",
+                    borderRadius: "5px",
+                  }}
+                ></div>
+                <div className="card-body">{title}</div>
+                <div className="card-footer">{description}</div>
+              </a>
+            </div>
+          ))
+        : "Unable to fetch projects from source"}
     </div>
   );
 };
