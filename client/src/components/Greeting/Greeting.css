@@ -1,0 +1,11 @@
+.greeting-container {
+  margin: 2rem 0;
+}
+
+.greeting-hello {
+  font-size: 2.5rem;
+}
+
+.greeting-break {
+  width: 800px;
+}

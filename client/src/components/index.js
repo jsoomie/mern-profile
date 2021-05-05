@@ -6,3 +6,4 @@
 export { Header } from "./Header/Header";
 export { Footer } from "./Footer/Footer";
 export { ProgramList } from "./ProgramList/ProgramList";
+export { Greeting } from "./Greeting/Greeting";

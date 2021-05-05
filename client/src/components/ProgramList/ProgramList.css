@@ -1,6 +1,7 @@
 .program-list-container {
   width: 800px;
   font-size: 1.2rem;
+  opacity: 0.8;
 }
 
 .program-list-container li {
