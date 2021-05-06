@@ -8,7 +8,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/mern-stack/">
             <Home />
           </Route>
           <Route exact path="/projects">

@@ -1,4 +1,5 @@
 import "./Greeting.css";
+import js_profile_hs from "../../assets/js_profile_hs.png";
 
 export const Greeting = () => {
   return (
@@ -9,7 +10,7 @@ export const Greeting = () => {
         rel="noreferrer"
         title="visit my github"
       >
-        <img src="./js_profile_hs.png" alt="my profile pic" width="300px" />
+        <img src={js_profile_hs} alt="my profile pic" width="300px" />
       </a>
       <h1 className="greeting-hello">
         Hello<span className="greeting-exclamation">!</span>
