@@ -26,6 +26,6 @@ I'm willing to take any suggestions!
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## SCREENSHOTS
-![homepage](./client/public/assets/screenshots/index.png)
-![projects](./client/public/assets/screenshots/projects.png)
-![contact](./client/public/assets/screenshots/contact.png)
+![homepage](./assets/../client/src/assets/screenshots/index.png)
+![projects](./assets/../client/src/assets/screenshots/projects.png)
+![contact](./assets/../client/src/assets/screenshots/contact.png)

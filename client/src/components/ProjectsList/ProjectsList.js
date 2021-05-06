@@ -1,5 +1,5 @@
 import "./ProjectList.css";
-import projects from "../../db/projectlist.json";
+import { default as projects } from "../../db/projectlist";
 
 export const ProjectsList = () => {
   return (
