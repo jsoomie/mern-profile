@@ -7,7 +7,7 @@ export const ProjectsList = () => {
       {projects
         ? projects.map(({ id, title, image, url, description }) => (
             <div className="card-container" key={id}>
-              <a href={url} title={title}>
+              <a href={url} title={title} target="_blank" rel="noreferrer">
                 <div
                   className="card-header"
                   style={{

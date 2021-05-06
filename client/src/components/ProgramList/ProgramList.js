@@ -7,7 +7,7 @@ export const ProgramList = () => {
       {programs &&
         programs.map(({ id, program, icon, link, title }) => (
           <li key={id}>
-            <a href={link} title={title}>
+            <a href={link} title={title} target="_blank" rel="noreferrer">
               <i className={icon} />
               {" " + program}
             </a>
