@@ -2,7 +2,7 @@ import { ProgramList, Greeting } from "../components";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="homePage">
       <Greeting />
       <ProgramList />
     </div>

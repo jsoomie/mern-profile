@@ -150,3 +150,9 @@ ul {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
 }
+
+.contactPage,
+.homePage,
+.projectsPage {
+  margin-bottom: 10rem;
+}
