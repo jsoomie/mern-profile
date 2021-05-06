@@ -13,7 +13,7 @@
 Hello and welcome to my portfolio github page! This is yet another rendition of my personal portfolio!
 
 ## LINKS
-- [Portfolio Page]()
+- [Portfolio Page](https://sksmejn.github.io/mern-profile/)
 - [Github Page](https://github.com/sksmejn)
 
 ## USAGE 
