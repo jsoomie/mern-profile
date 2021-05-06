@@ -13,7 +13,11 @@ export const Header = () => {
       <div className="header-list-container px-1 all-center">
         <ul className="header-list">
           <li className="github">
-            <a href="https://github.com/sksmejn">
+            <a
+              href="https://github.com/sksmejn"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-github-square"></i> github
             </a>
           </li>
@@ -21,12 +25,18 @@ export const Header = () => {
             <a
               href="https://www.linkedin.com/in/jonathan-soukaseume/"
               title="Add me on LinkedIn!"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin"></i> linkedIn
             </a>
           </li>
           <li className="resume">
-            <a href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="far fa-file"></i> resume
             </a>
           </li>
