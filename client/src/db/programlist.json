@@ -3,48 +3,56 @@
     "id": 1,
     "program": "MERN Stack",
     "icon": "fas fa-layer-group",
-    "link": "https://www.mongodb.com/mern-stack"
+    "link": "https://www.mongodb.com/mern-stack",
+    "title": "learn more about mern-stack!"
   },
   {
     "id": 2,
     "program": "MongoDB",
     "icon": "fas fa-database",
-    "link": "https://www.mongodb.com/"
+    "link": "https://www.mongodb.com/",
+    "title": "learn more about mongodb!"
   },
   {
     "id": 3,
     "program": "Express",
     "icon": "fas fa-server",
-    "link": "https://www.npmjs.com/package/express"
+    "link": "https://www.npmjs.com/package/express",
+    "title": "learn more about express.js!"
   },
   {
     "id": 4,
     "program": "React.js",
     "icon": "fab fa-react",
-    "link": "https://reactjs.org/"
+    "link": "https://reactjs.org/",
+    "title": "learn more about React.js!"
   },
   {
     "id": 5,
     "program": "Node.js",
     "icon": "fab fa-node",
-    "link": "https://nodejs.org/en/about/"
+    "link": "https://nodejs.org/en/about/",
+    "title": "learn more about Node.js!"
   },
   {
     "id": 6,
     "program": "JavaScript",
     "icon": "fab fa-js",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "title": "learn more about Javascript!"
   },
   {
     "id": 7,
     "program": "HTML",
     "icon": "fab fa-html5",
-    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML"
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML",
+    "title": "learn more about HTML!"
   },
   {
     "id": 8,
     "program": "CSS",
     "icon": "fab fa-css3-alt",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "title": "learn more about Cascading Style Sheets!"
   }
 ]

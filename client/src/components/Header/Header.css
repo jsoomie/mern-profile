@@ -40,3 +40,16 @@
 .contact > * {
   color: var(--darkcyan);
 }
+
+.header-list-container li > a {
+  padding-top: 0.3rem;
+}
+
+.header-list-container a {
+  transition: 0.5s;
+}
+
+.header-list-container li > a:hover {
+  border-top: 1px solid #fff;
+  letter-spacing: 0.05rem;
+}

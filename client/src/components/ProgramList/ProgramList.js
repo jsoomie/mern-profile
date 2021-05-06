@@ -5,9 +5,9 @@ export const ProgramList = () => {
   return (
     <ul className="all-center program-list-container grid-4">
       {programs &&
-        programs.map(({ id, program, icon, link }) => (
+        programs.map(({ id, program, icon, link, title }) => (
           <li key={id}>
-            <a href={link}>
+            <a href={link} title={title}>
               <i className={icon} />
               {" " + program}
             </a>

@@ -21,3 +21,13 @@
   border-left: 125px solid transparent;
   border-right: 125px solid transparent;
 }
+
+.footer-contact-container a {
+  transition: 0.5s;
+}
+
+.footer-contact-container li > a:hover {
+  border-bottom: 1px solid var(--yellow);
+  letter-spacing: 0.2rem;
+  color: var(--yellow);
+}

@@ -14,6 +14,7 @@ export const Header = () => {
         <ul className="header-list">
           <li className="github">
             <a
+              title="Visit my github!"
               href="https://github.com/sksmejn"
               target="_blank"
               rel="noreferrer"
@@ -33,6 +34,7 @@ export const Header = () => {
           </li>
           <li className="resume">
             <a
+              title="Grab my resume!"
               href="https://drive.google.com/file/d/1ZR4-VGneh9u5eKDYIBgDVFg5mXNxKbgP/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
@@ -41,12 +43,12 @@ export const Header = () => {
             </a>
           </li>
           <li className="projects">
-            <Link to="/projects">
+            <Link to="/projects" title="View my projects!">
               <i className="far fa-folder-open"></i> projects
             </Link>
           </li>
           <li className="contact">
-            <Link to="/contact">
+            <Link to="/contact" title="Contact me!">
               <i className="far fa-envelope"></i> contact
             </Link>
           </li>

@@ -3,7 +3,14 @@ import "./Greeting.css";
 export const Greeting = () => {
   return (
     <div className="all-center greeting-container">
-      <img src="./js_profile_hs.png" alt="my profile pic" width="300px" />
+      <a
+        href="https://github.com/sksmejn"
+        target="_blank"
+        rel="noreferrer"
+        title="visit my github"
+      >
+        <img src="./js_profile_hs.png" alt="my profile pic" width="300px" />
+      </a>
       <h1 className="greeting-hello">
         Hello<span className="greeting-exclamation">!</span>
       </h1>
